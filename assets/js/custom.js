@@ -11,7 +11,7 @@ $(function() {
     var $navigation = $mainNavigation.find(".navbar-nav");
 
     $navigation.find("> .nav-item > .nav-link").each(function (e) {
-        var text = $(this).text().replace(/\s/g, '');
+        var text = $(this).text();
         var firstLetter = text.substring(0,1);
         var hiddenLetters = text.substring(1);
 

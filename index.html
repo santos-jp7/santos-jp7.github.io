@@ -24,7 +24,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/all.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -50,6 +50,9 @@
                     <img src="assets/img/brand-light.png" alt="brand" class="mw-100">
                 </a>
             </div>
+            <a class="navbar-brand" href="#" style="margin-left: auto;">
+                <i class="fas fa-user-shield mw-100" style="color: aliceblue;"></i>
+            </a>
         </div>
 
     </div>
@@ -66,7 +69,10 @@
                     <a class="nav-link" href="#content">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#works">Trabalhos</a>
+                    <a class="nav-link" href="#works">Area do Cliente</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#works">Projetos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#skills">Habilidades</a>
@@ -107,7 +113,7 @@
             <div class="ts-background" data-bg-parallax="scroll" data-bg-parallax-speed="3">
                 <div id="ts-particles" class="ts-background-image ts-parallax-element ts-z-index__1"></div>
                 <div class="ts-img-into-bg ts-background-image ts-parallax-element">
-                    <img src="https://www.pexels.com/photo/270373/download/?search_query=code&tracking_id=n3g1nnhuass" alt="">
+                    <img src="./background.jpg" alt="">
                 </div>
             </div>
         </header>
@@ -123,43 +129,42 @@
             ============================================================================================================
             -->
             <section id="works">
-                <div class="container-fluid px-0" id="works" name="works">
+                <div class="container px-0" id="works" name="works">
+                    <div class="row no-gutters ts-gallery mx-md-n1">
 
-                    <div class="row no-gutters ts-gallery">
-
-                        <div class="col-md-6 col-lg-4">
-                            <a href="https://github.com/santos-jp7/yettz" class="card ts-gallery__item ts-floated-description" data-animate="ts-fadeInUp" target="_blank">
+                        <div class="col-md-2 col-lg-4 px-md-1 p-1">
+                            <div class="card ts-gallery__item ts-floated-description" data-animate="ts-fadeInUp" target="_blank">
                                 <div class="ts-gallery__item-description">
                                     <h3>Yettz</h3>
-                                    <h5>Bot para o Discord</h5>
-                                    <small class="btn btn-dark btn-sm">
-                                        LTS
-                                    </small>
+                                    <h5>Um bot para administrar e animar um servidor do Discord.</h5>
+                                    <div class="btn btn-dark btn-sm">
+                                        <i class="fab fa-2x fa-github" aria-setsize="500"></i>
+                                    </div>
                                 </div>
                                 <div class="ts-background ts-img-into-bg">
                                     <img src="assets/img/yettz.png" alt="">
                                 </div>
-                            </a>
+                            </div>
                         </div>
                         <!--end gallery item-->
-
-                        <div class="col-md-6 col-lg-4">
+                    
+                        <div class="col-md-2 col-lg-4 px-md-1 p-1">
                             <a href="https://github.com/santos-jp7/ig-js" class="card ts-gallery__item ts-floated-description" data-animate="ts-fadeInUp" data-delay=".1s" target="_blank">
                                 <div class="ts-gallery__item-description">
-                                    <h3>Ig-Js</h3>
-                                    <h5>Utilize seu Instagram com JavaScript</h5>
-                                    <small class="btn btn-dark btn-sm">
-                                        PRÉ-ALFA
-                                    </small>
+                                    <h3>Bot Greyhound Brasil</h3>
+                                    <h5>Um bot para realizar análises em corridas de galgos.</h5>
+                                    <div class="btn btn-dark btn-sm">
+                                        <i class="fab fa-2x fa-github" aria-setsize="500"></i>
+                                    </div>
                                 </div>
                                 <div class="ts-background ts-img-into-bg">
-                                    <img src="assets/img/igjs.jpg" alt="">
+                                    <img src="assets/img/botghbrasil.jpg" alt="">
                                 </div>
                             </a>
                         </div>
                         <!--end gallery item-->
-
-                        <div class="col-md-6 col-lg-4">
+                    
+                        <div class="col-md-2 col-lg-4 px-md-1 p-1">
                             <a href="#works" class="card ts-gallery__item ts-floated-description" data-animate="ts-fadeInUp" data-delay=".15s">
                                 <div class="ts-gallery__item-description">
                                     <h3>Triangle</h3>
@@ -174,8 +179,8 @@
                             </a>
                         </div>
                         <!--end gallery item-->
-
-                        <div class="col-md-6 col-lg-4">
+                    
+                        <div class="col-md-2 col-lg-4 px-md-1 p-1 ">
                             <a href="#works" class="card ts-gallery__item ts-floated-description" data-animate="ts-fadeInUp" data-delay=".2s">
                                 <div class="ts-gallery__item-description">
                                     <h3>Dlivery</h3>
@@ -190,8 +195,8 @@
                             </a>
                         </div>
                         <!--end gallery item-->
-
-                        <div class="col-md-6 col-lg-4">
+                    
+                        <div class="col-md-2 col-lg-4 px-md-1 p-1">
                             <a href="https://github.com/santos-jp7/omnistack10" class="card ts-gallery__item ts-floated-description" data-animate="ts-fadeInUp" data-delay=".25s" target="_blank">
                                 <div class="ts-gallery__item-description">
                                     <h3>DevRadar</h3>
@@ -206,8 +211,8 @@
                             </a>
                         </div>
                         <!--end gallery item-->
-
-                        <div class="col-md-6 col-lg-4">
+                    
+                        <div class="col-md-2 col-lg-4 px-md-1 p-1">
                             <a href="#works" class="card ts-gallery__item ts-floated-description" data-animate="ts-fadeInUp" data-delay=".3s">
                                 <div class="ts-gallery__item-description">
                                     <h3>TunnelChat</h3>
@@ -222,7 +227,7 @@
                             </a>
                         </div>
                         <!--end gallery item-->
-
+                    
                     </div>
                 </div>
             </section>
